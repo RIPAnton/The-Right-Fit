@@ -5,7 +5,7 @@
 Its goal is to take student responses to a survey and match students into a compatible group for an assigned project.
 </p>
 <p>The system was developed in full-stack web fashion with the front-end consisting of HTML, CSS, Javascript and Bootstrap, and the backend
-consisting of PHP, MySQL and Apache.
+consisting of PHP and MySQL.
 </p>
 
 <em>Functions:</em>
