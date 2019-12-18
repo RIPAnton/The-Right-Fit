@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+	Feedback Page Stylesheet
+	feedbackform_stylesheet.css - November 2019
+	Copyright © 2019 soyScripters
+*/
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	background-color: #006848;
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+	font-size:60px;
+}
+
+h2{
+	font-size:40px;
+}
+footer {
+    justify-content: center;
+    align-items: center;
+	display: flex;
+	bottom: 0;
+	font-size: 11px;
+	padding: 20px;
+}
+.feedback{
+	text-align:left;
+	background-color: #3E444A;
+	padding: 26px;
+	margin: auto;
+	border-bottom: 1px solid white;
+}
+
+@media (max-width:538px){
+	textarea{
+		width: 250px;
+		padding: 12px;  
+		border: 1px solid #ccc; 
+		border-radius: 4px;
+		box-sizing: border-box;
+		margin-top: 6px;
+		margin-bottom: 16px;
+		resize: vertical;
+		text-align: left;
+	}
+}
+
+@media (min-width:538px){
+	textarea{
+		width: 435px;
+		padding: 12px;  
+		border: 1px solid #ccc; 
+		border-radius: 4px;
+		box-sizing: border-box;
+		margin-top: 6px;
+		margin-bottom: 16px;
+		resize: vertical;
+		text-align: left;
+	}
+}
+
+#fname, #email{
+	width: 250px;
+	padding: 12px;  
+	border: 1px solid #ccc; 
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	text-align: left;
+}
+
+input[type=submit] {
+	background-color: white;
+	color: black;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type=submit]:hover {
+	background-color: #006848;
+	color: white;
+}
+.feedback form{
+	align-content: center;
+}
+.greeting{
+	justify-content: center;
+    align-items: center;
+	padding:26px;
+	border-bottom: 1px solid white;
+	text-align:center;
+}
+
+.greeting p{
+	font-size: 25px;
+}	
+
+#nav{
+	border-bottom: 1px solid black;
+}
+footer{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+a{
+	text-align:center;
+}

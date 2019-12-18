@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+	CSS for Admin Dashboard
+	admindash_stylesheet.css - November 2019
+	Copyright © 2019 soyScripters
+*/
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	background-color: #006848;
+	font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width:445px){
+	h1{
+		font-size:50px;
+		padding: 20px;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+	}
+}	
+
+@media (min-width:446px){
+	h1{
+		font-size:60px;
+		padding: 30px;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+h2{
+	font-size:45px;
+	padding: 20px;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+	display: flex;
+	bottom: 0;
+	font-size: 11px;
+	padding: 20px;
+}
+
+#surveyInfo{
+	text-align: center;
+	background-color: #3E444A;
+}
+
+#deadlineInfo p{
+	padding: 70px;
+	font-size: 50px;
+	display:inline-block;
+}
+
+#studentsList{
+	padding: 12px;
+}
+
+@media (min-width:576px){
+	#studentsInfo{
+		border-left: white solid 1px;
+	}
+}	
+
+@media (max-width:575px){
+    #studentsInfo{
+      border-top: white solid 1px;
+    }
+}
+
+a{
+	text-align:center;
+}

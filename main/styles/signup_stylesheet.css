@@ -1,0 +1,160 @@
+/* 
+CSS for signup page
+Created by: Chance Belloise
+signup_stylesheet.css - v0.1, October 2019
+Copyright © 2019 soyScripters
+*/
+
+/* CSS for desktop viewing */
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #006848;
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+	color: white;
+	margin-left: 15px;
+	margin-bottom: -20px;
+	font-size: 80px;
+}
+h2{
+	color:white;
+	font-size: 45px;
+	margin-left: 15px;
+}
+.signup{
+	width: 320px;
+	height: 420px;
+	position: absolute;
+	left: 36.5%;
+	top: 43%;
+	box-sizing: border-box;
+}
+
+#student-radio{
+	opacity: 0;
+	z-index: 100;
+	display:block;
+}
+
+#admin-radio{
+	opacity: 0;
+	z-index: 100;
+	display:inline;
+	text-align:right;
+}
+
+.signup form label {
+	padding: 5px;
+	border: 1px solid #CCC;
+	background: rgb(161, 161, 93);
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 16px;
+	/*margin-top: 2px;*/
+	width: 45%;
+	text-align: center;
+}
+
+.signup form label:hover {
+	background: #fff;
+	color: rgb(161, 161, 93);
+	cursor: pointer;
+}
+
+.signup form input[type="radio"]:checked+label{
+	background: #fff;
+	color: rgb(161, 161, 93);
+}
+
+/*
+.signup input[type="button"]{
+	width: 49%;
+	height: 35px;
+	background: rgb(161, 161, 93);
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 2px;
+}
+.signup input[type="button"]:focus{
+	cursor: pointer;
+	background: #fff;
+	color: rgb(161, 161, 93);
+}
+.signup input[type="button"]:focus{
+	background: #fff;
+	color: rgb(161, 161, 93);
+}*/
+.signup input[type="text"],[type="password"],[type="email"]{
+	width: 96.7%;
+	border: none;
+	height:35px;
+	outline: none;
+	font-size: 16px;
+	text-align: left(50px);
+	padding-top: 2px;
+	padding-left: 10px;
+	margin-top: 2px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.name{
+	width: 47.6% !important;
+	margin: 0px;
+	padding: 0px;
+}
+.signup input[type="submit"]{
+	width: 97%;
+	height: 35px;
+	background: rgb(161, 161, 93);
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 3px;
+	border-radius: 20px;
+}
+.signup input[type="submit"]:hover{
+	cursor: pointer;
+	background: #fff;
+	color: rgb(161, 161, 93);
+}
+.signup a{
+	font-size: 85%;
+	color: #fff;
+	width: 300px; 
+	margin: 0 auto;
+}
+.signup a:hover{
+	color: rgb(161, 161, 93);
+}
+.sidebar img[type="sidebar"]{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	height: 100vh;
+	width: 15vw;
+}
+.sidebar img[type="usflogo"]{
+	position: absolute;
+	top: 15px;
+	right: 5px;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	width: 14vw;
+}
+footer p{
+	position: absolute;
+	bottom: 0;
+	left: 37%;
+	color: white;
+	font-size: 80%;
+}
