@@ -8,7 +8,7 @@ Its goal is to take student responses to a survey and match students into a comp
 consisting of PHP and MySQL.
 </p>
 
-<em>Functions:</em>
+<em>Functions/Features:</em>
 <ul>
   <li>Allows for admin/student account creation</li>
   <li>Admins can administer a survey with specific criteria such as project name, deadline, and students involved</li> 
