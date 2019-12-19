@@ -17,7 +17,7 @@ consisting of PHP and MySQL.
   <li>Security measures are included like the use of prepared statements in the controller scripts</li> 
 </ul>
 
-<h4>Team:</h4>
+<h3>Team:</h3>
 <ul>
   <li>Manuel DeJesus (<em>manu.dejesus@protonmail.com</em>)</li>
   <li>Ariel Morillo (<em>domrep11@gmail.com</em>)</li>
