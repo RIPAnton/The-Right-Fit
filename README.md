@@ -19,7 +19,7 @@ consisting of PHP and MySQL.
 
 <h4>Team:</h4>
 <ul>
-  <li>Manuel DeJesus <em>(manu.dejesus@protonmail.com)</em></li>
-  <li>Ariel Morillo <em>()</em></li>
-  <li>Madison Chance Belloise <em>(mcbelloise@mail.usf.edu)</em></li>
+  <li>Manuel DeJesus (<em>manu.dejesus@protonmail.com</em>)</li>
+  <li>Ariel Morillo (<em>domrep11@gmail.com</em>)</li>
+  <li>Madison Chance Belloise (<em>mcbelloise@mail.usf.edu</em>)</li>
 </ul> 
