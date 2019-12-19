@@ -16,3 +16,10 @@ consisting of PHP and MySQL.
   <li>The SwiftMailer tool allows for email validations</li> 
   <li>Security measures are included like the use of prepared statements in the controller scripts</li> 
 </ul>
+
+<h4>Team:</h4>
+<ul>
+  <li>Manuel DeJesus <em>(manu.dejesus@protonmail.com)</em></li>
+  <li>Ariel Morillo <em>()</em></li>
+  <li>Madison Chance Belloise <em>(mcbelloise@mail.usf.edu)</em></li>
+</ul> 
