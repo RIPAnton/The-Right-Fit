@@ -1,6 +1,6 @@
 <h1><strong>The Right Fit</strong></h1>
 
-<p>Yes, I know. The name isn't the best.</p>
+<p>I'm thinking the same thing: the name could use some change.</p>
 <p>The Right Fit is a student matching system developed for my senior project.
 Its goal is to take student responses to a survey and match students into a compatible group for an assigned project.
 </p>
