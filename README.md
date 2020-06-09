@@ -1,7 +1,7 @@
 <h1><strong>The Right Fit</strong></h1>
 
 <p>I'm thinking the same thing: the name could use some change.</p>
-<p>The Right Fit is a student matching system developed for my senior project.
+<p>The Right Fit is a student matching system developed for our senior project.
 Its goal is to take student responses to a survey and match students into a compatible group for an assigned project.
 </p>
 <p>The system was developed in full-stack web fashion with the front-end consisting of HTML, CSS, Javascript and Bootstrap, and the backend
